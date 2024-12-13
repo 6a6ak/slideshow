@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0" client="site" method="upgrade">
+    <name>Slideshow with Video Background</name>
+    <author>Your Name</author>
+    <version>1.0.0</version>
+    <description>Custom slideshow module with video background and animated text.</description>
+    <files>
+        <filename module="mod_slideshow">mod_slideshow.php</filename>
+        <filename>styles.css</filename>
+        <filename>script.js</filename>
+        <folder>tmpl</folder>
+        <folder>media</folder>
+    </files>
+ <languages>
+    <language tag="en-GB">language/en-GB/en-GB.mod_slideshow.ini</language>
+</languages>
+
+</extension>
